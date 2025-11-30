@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Test Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header, footer {
+            background: #e4e4e4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            margin-top: 30px;
+        }
+
+        .box {
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>HTML Test Page</h1>
+    <p>Use this page to test your website's layout, styles, and scripts.</p>
+</header>
+
+<section class="box">
+    <h2>Text & Typography</h2>
+    <p>This is a normal paragraph. <strong>This is bold.</strong> <em>This is italic.</em></p>
+    <ul>
+        <li>Bullet list item 1</li>
+        <li>Bullet list item 2</li>
+    </ul>
+    <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+    </ol>
+</section>
+
+<section class="box">
+    <h2>Image Test</h2>
+    <img src="https://via.placeholder.com/400x200" alt="Placeholder image" style="max-width:100%;border:1px solid #ccc;">
+</section>
+
+<section class="box">
+    <h2>Buttons & Interactions</h2>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+</section>
+
+<section class="box">
+    <h2>Form Elements</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Message:</label>
+        <textarea rows="4" placeholder="Your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section class="box">
+    <h2>Table Test</h2>
+    <table>
+        <tr>
+            <th>Column A</th>
+            <th>Column B</th>
+        </tr>
+        <tr>
+            <td>Row 1 Cell A</td>
+            <td>Row 1 Cell B</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell A</td>
+            <td>Row 2 Cell B</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>Footer Area — © 2025 Test Site</p>
+</footer>
+
+<script>
+    console.log("Test page loaded successfully.");
+</script>
+
+</body>
+</html>
